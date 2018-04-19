@@ -72,8 +72,7 @@ public class Graph {
     // A recursive function to print all paths from 'u' to 'd'.
     // isVisited[] keeps track of vertices in current path.
     // localPathList<> stores actual vertices in the current path
-    private void printAllPathsUtil(Integer u, Integer d, boolean[] isVisited,
-                                   List<Integer> localPathList) {
+    private void printAllPathsUtil(Integer u, Integer d, boolean[] isVisited, List<Integer> localPathList) {
 
         // Mark the current node
         isVisited[u] = true;
